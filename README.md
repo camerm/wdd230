@@ -1,1 +1,1 @@
-# wdd230
+This repository is for WDD230 Frontend Development I
