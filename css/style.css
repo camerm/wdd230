@@ -6,6 +6,7 @@ header {
     grid-template-columns: 210px 1fr;
 }
 
+
 main {
     align-items: center;
     justify-items: center;
@@ -39,6 +40,7 @@ h3{
     font-family: 'BIZ UDPGothic', sans-serif;
     font-size: 0.8rem;
 }
+
 
 img {
     margin: 5px;

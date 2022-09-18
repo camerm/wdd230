@@ -22,6 +22,8 @@ const months = [
 	"December"
 ];
 
+
+
 const d = new Date();
 const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
