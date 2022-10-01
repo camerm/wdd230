@@ -20,6 +20,7 @@ header, main, footer {
     align-items: center;
     justify-items: center;
     justify-content: center;
+    border-radius: 0.5em;
 }
 
 .list {
@@ -52,4 +53,5 @@ img {
     margin: 18px;
     width: 100px;
     align-items: center;
+    border-radius: 0.5em;
 }
