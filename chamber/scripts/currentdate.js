@@ -47,7 +47,7 @@ let day = new Date().getDay();
 
 const banner = document.getElementById("banner");
 if (day === 1 || day === 2) {
-	banner.style.display = "flex";
+	banner.style.display = "block";
 	banner.style.justifyContent = "space-between";
 }
 const close1 = document.querySelector("#close");

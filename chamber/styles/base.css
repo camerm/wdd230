@@ -111,6 +111,29 @@ nav{
 }
 
 
+.hero {
+    position: relative;
+    padding: 0;
+}
+.hero button {
+    position: absolute;
+    top: 620px;
+	right: 50px;
+    bottom: 60px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px ;
+    background-color: rgba(255,255,0, 0.5);
+    font-weight: bold;
+}
+.hero h2 {
+    position: absolute;
+    top: 15px;
+	right: 400px;
+}
+.hero img {
+    width: 100%;
+}
 
 .layout{
     display: grid;
@@ -127,10 +150,11 @@ main div{
 }
 main h2, h3, h1, p{
     color: black;
+    margin: 0;
 }
 
 .spotligth img {
-    width: 150px;
+    width: 100px;
 }
 
 
