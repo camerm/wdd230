@@ -116,6 +116,21 @@
         display: inline;
         margin: 1%;  
     }
-    
-
+    /*--------------------------------------join page-------------------------------------------------*/
+    main.join{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: white;
     }
+    main.join .benefits{
+        display: block;
+    }
+    main.join .introduction{
+        grid-column: 1/3;
+    }
+    main.join form{
+        margin: 0 4rem;
+    }
+    
+    }
+

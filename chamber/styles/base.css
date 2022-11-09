@@ -217,7 +217,6 @@ form label.top{
 }
 
 form label.top input, form label.top input select{
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #D5ECD4;
@@ -229,7 +228,6 @@ form label.top input, form label.top input select{
     background-color: rgba(0, 0, 0, 0.1);
 }
 form label.top textarea{
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px #D5ECD4;
@@ -281,3 +279,5 @@ form label.top input:required{
 form label.top input:required:valid{
     background-color: rgba(0, 225, 0, 0.3);
 }
+
+/*--------------------------------------thank you page-------------------------------------------------*/
