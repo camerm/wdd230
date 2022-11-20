@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Document</title>
     <script defer src="scripts/currentdate.js"></script>
+    <script defer src="scripts/weather.js"></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -49,9 +50,18 @@
             </div>
             <div class="weather">
                 <h2>Weather</h2>
+                <h1><span id="current-temp"></span> &deg;C</h1>
+                <figure>
+                    <img src="" alt="" id="weather-icon"/>
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed:<span id="wind"></span> Km/h</p>
+                <p>Wind chill:<span id="wind-chill"></span> N/A</p>
             </div>
             <div class="join">
-                <h2>Join</h2>
+                <button type="button" onclick="">Join Us!</button>
+                <p>Discover how to join the chamber of commerce and how it will benefit
+                   your organitation!</p>
             </div>
             <div class="hero">
                 <h2>Welcome to the AQP-Land</h2>

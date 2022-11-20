@@ -331,3 +331,9 @@ form label.top input:required:valid{
 	flex-direction: row;
 	justify-content: left;
 }
+
+  /* ----------------------------------Weather box---------------------------------- */
+
+  .weather {
+    text-align: center;
+}
