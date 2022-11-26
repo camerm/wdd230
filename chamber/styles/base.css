@@ -329,7 +329,7 @@ form label.top input:required:valid{
 
 /* ------------------------------------Discover----------------------------------- */
 .discover div{
-    background-color: #D5ECD4;
+    background-color: rgb(236, 242, 243);
     margin: 0.4rem;
     padding: 0.4rem;
     border: 1px #A1B0AB solid;
