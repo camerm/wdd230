@@ -9,6 +9,7 @@
     <title>Document</title>
     <script defer src="scripts/currentdate.js"></script>
     <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/lastupdate.js"></script>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -17,7 +18,8 @@
 <body>
     <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m. <button id="close">❌</button></div>    
     <header class="header">
-        <div class="logo-picture"> <img src="images/logo.jpg" alt="my-logo" width="100">
+        <div class="logo-picture"> 
+            <a href="index.html"><img src="images/logo.jpg"  alt="my-logo" width="100"></a>
         </div>
         <div class="social">
             <a href="https://www.facebook.com/"><img src="images/facebook.logo.png" alt="facebook.logo" width="50"></a>
@@ -118,8 +120,7 @@
             <p> &copy; 2022 AQP-Land Chamber</p>
             <p>Oliverio Cameron</p>
             <p>WDD 230 Project</p>
-            <p>Last Update: <span id="lastupdate"></span></p>
-            <script src="scripts/currentdate.js"></script>
+            <p>Last Update: <span id="lastModific"></span></p>
         </div>
     </footer>
 </body>
