@@ -49,6 +49,9 @@
         background-color: rgb(255, 255, 255);
 
     }
+    .chamber h1, h2{
+        font-size: 1.7em;
+    }
     main div{
         margin:0.5rem;
         padding: 0.5rem;
@@ -92,6 +95,7 @@
 
     }
 
+
     footer{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
@@ -115,6 +119,13 @@
     .autor p{
         display: inline;
         margin: 1%;  
+    }
+    .hero button {
+        position: absolute;
+        top: 500px;
+        right: 60px;
+        bottom: 60px;
+        padding: 10px;
     }
     /*--------------------------------------join page-------------------------------------------------*/
     main.join{
@@ -156,15 +167,9 @@
     .list section {
         display: grid;
         width: 90%;
-        grid-template-columns: 2fr 2fr 3.5fr 3fr 3fr;
+        grid-template-columns: 2fr 2fr 3.5fr 3fr;
     }
-    .list section img {
-        display:flex;
-        margin: 2px;
-        width: 23%;
-        height: 50%;
-        align-items: center;
-    }
+
     /*--------------------------------------Contact Page-------------------------------------------------*/
     main.contact{
         display: grid;

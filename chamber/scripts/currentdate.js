@@ -43,15 +43,13 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 // -------------------------------------------------Banner-----------------------------------------------------//
 
-let day = new Date().getDay();
+let x = new Date().getDay();
 
 const banner = document.getElementById("banner");
-if (day === 1 || day === 2) {
+if (x === 1 || x === 2) {
 	banner.style.display = "block";
-	banner.style.justifyContent = "space-between";
 }
-const close1 = document.querySelector("#close");
-close1.style.color = "red" ;
-close1.addEventListener("click", () => {
+const close = document.querySelector("#close");
+close.addEventListener("click", () => {
 	banner.style.display = "none";
 });

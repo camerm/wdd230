@@ -1,3 +1,4 @@
+
 .banner {
     display: none;
 	margin: 0 auto;
@@ -41,18 +42,35 @@ header{
 .hero {
     position: relative;
     padding: 0;
+    border: 1px #A1B0AB solid;
 }
 .spotligth{
     text-align: center;
+    border: 1px #A1B0AB solid;
 }
 .join{
     text-align: center;
+    border: 1px #A1B0AB solid;
 }
 .news{
     text-align: center;
+    border: 1px #A1B0AB solid;
 }
 .event{
     text-align: center;
+    border: 1px #A1B0AB solid;
+}
+.weather{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    border: 1px #A1B0AB solid;
+}
+.weather h1{
+    color: #555;
+}
+.chamber h1, h2{
+    font-size: 1em;
 }
 
 
@@ -60,12 +78,16 @@ header h2 h3 h1 p{
     color:aqua;
 }
 nav{
+    display: block;
     justify-self: center;
     align-self: center;
+    justify-items: stretch;
 }
+
+
 .navigation a:hover {
 	color: white;
-	background-color: rgb(10, 5, 82);
+	background-color: rgb(112, 101, 196);
     padding: 8px;
 }
 .navigation li:first-child {
@@ -105,11 +127,12 @@ nav{
 .chamber{
     align-self: center;
     justify-self: center;
+    align-content: center;
 }
 
 .hero button {
     position: absolute;
-    top: 620px;
+    top: 220px;
 	right: 50px;
     bottom: 60px;
     padding: 5px;
@@ -135,6 +158,8 @@ nav{
     padding: 0.5rem;
 }
 
+
+
 main div{
     background-color: rgb(236, 242, 243);
 }
@@ -154,7 +179,7 @@ footer{
     display: grid;
     background-color: rgba(1, 13, 122, 0.938);
 }
-footer p, h1, h2, h3{
+footer p, h1, h2{
     color:aqua;
 }
 footer img{
@@ -193,7 +218,7 @@ form fieldset {
     border: 1px solid #1C211D;
     border-radius: 8px;
     padding: .5rem 2%;
-    background-color: #b8ebf4;
+    background-color: rgb(236, 242, 243);
 }
 form legend{
     color: #1C211D;
@@ -211,7 +236,7 @@ form label.top{
 form label.top input, form label.top input select{
     display: block;
     font-size: 1rem;
-    border: solid 1px #D5ECD4;
+    border: solid 1px #56c8df;
     border-radius: 4px;
     padding: .75rem;
     color: #1C211D;
@@ -239,7 +264,7 @@ form label.sbs{
 }
 form input.submitBtn {
     border: solid 1px #555;
-    background-color: #D5ECD4;
+    background-color: #7eaaa1;
     color: #1C211D;
     border-radius: 0.7rem;
     padding: 0.75rem 1.5rem;
@@ -269,7 +294,7 @@ form label.top input:required{
     background-color: rgba(225, 0, 0, 0.1);
 }
 form label.top input:required:valid{
-    background-color: rgba(0, 225, 0, 0.3);
+    background-color: rgba(0, 225, 0, 0.1);
 }
 
 /*--------------------------------------thank you page-------------------------------------------------*/
@@ -335,8 +360,9 @@ form label.top input:required:valid{
     padding: 0.4rem;
     border: 1px #A1B0AB solid;
 }
-.discover h2{
+.discover h2, h3{
     margin: 10px;
+    text-align: center;
 }
 
 .discover picture ~ p {
@@ -375,8 +401,11 @@ form label.top input:required:valid{
 
 /* ----------------------------------Contact Page---------------------------------- */
 
-main.contact h2{
+.contact h2{
     margin-top: 1.5rem;
+}
+.contact-form{
+    background-color: white;
 }
 form label.top textarea:required{
     background-color: rgba(225, 0, 0, 0.1);
@@ -385,13 +414,13 @@ form label.top textarea:required:valid{
     background-color: rgba(0, 225, 0, 0.3);
 }
 
-main.contact div.information{
+div.information{
     margin: 0 auto;
     max-width: 500px;
     border: 1px solid #1C211D;
     border-radius: 8px;
     padding: .5rem 2%;
-    background-color: #D5ECD4;
+    background-color: rgb(236, 242, 243);
     text-align: center;
 }
 
@@ -400,7 +429,6 @@ iframe{
     border-radius: 8px;
     margin-top: 1rem;    
 }
-
 
 .title{
     margin-bottom: 1rem;
